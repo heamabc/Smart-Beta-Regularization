@@ -22,11 +22,11 @@ class data_generation:
 
         # If the first valid index is none, return first element, else return none
         def first_valid_index(series):
-          first_index = series.first_valid_index()
-          if first_index != None:
-            return series.loc[first_index]
-          else:
-            return None
+            first_index = series.first_valid_index()
+            if first_index != None:
+                return series.loc[first_index]
+            else:
+                return None
 
         ln_open_df = np.log(open_df/open_df.apply(first_valid_index))
 
@@ -88,6 +88,7 @@ class data_generation:
 
         ln_open_np = ln_open_df.values
         
+        open_return_df.index = pd.to_datetime(open_return_df.index)
         SPY_culmulative_return = (open_return_df['SPY'].iloc[1:] + 1).cumprod()
 
         return ln_open_np, open_df, close_df, volume_df, open_return_df, close_return_df, Tickers, SPY_culmulative_return

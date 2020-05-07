@@ -12,4 +12,5 @@ In this project, I will first test the performance of smart beta strategy. Then 
 As there will not be any sparse weight for stocks. I only implement L2 regularization.
 
 ## Results
-![GMV](https://github.com/heamabc/Smart-Beta-Regularization/tree/master/results/GMV.jpg?raw=true)
+![GMV](https://github.com/heamabc/Smart-Beta-Regularization/blob/master/results/GMV.png?raw=true)
+![MSR](https://github.com/heamabc/Smart-Beta-Regularization/blob/master/results/MSR.png?raw=true)

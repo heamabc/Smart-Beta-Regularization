@@ -17,5 +17,6 @@ As there will not be any sparse weight for stocks. I only implement L2 regulariz
  - scipy optimization
 
 ## Results
+Regularization appearently improve the performance of GMV and MSR strategy.
 ![GMV](https://github.com/heamabc/Smart-Beta-Regularization/blob/master/results/GMV.png?raw=true)
 ![MSR](https://github.com/heamabc/Smart-Beta-Regularization/blob/master/results/MSR.png?raw=true)

@@ -1,7 +1,7 @@
 https://colab.research.google.com/drive/1JdancuWfsH4IEXIR7qtPNZDi9Mar3m62?usp=sharing
 
 # Smart-Beta-with-Regularization
-In this project, I will first test the performance of smart beta strategy. Then implement regularization technique to different smart beta srategies.
+In this project, I will first test the performance of smart beta strategy. Then implement L2 regularization technique to different smart beta srategies.
 
 ## Smart Beta Strategies
 - Maximum Diversification Ratio
